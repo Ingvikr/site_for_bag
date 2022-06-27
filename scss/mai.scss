@@ -307,5 +307,2482 @@
                 }
             }
         }
+
+        .mai_ro_blo2 {
+            border: 7px solid darkgreen;
+            .mai_ro_blo2_ro {
+                display: flex;
+                flex-direction: column;
+                border: 7px solid darkgreen;
+                .mai_ro_blo2_ro_desc1 {
+                    border: 7px solid darkgreen;
+                    .mai_ro_blo2_ro_desc1_ro {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        border: 7px solid darkgreen;
+
+                        @include doug_scre_2 {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include doug_scre_3 {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-start;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include doug_scre_4 {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-start;
+                            border: 7px solid darkgreen;
+                        }
+                        .mai_ro_blo2_ro_desc1_ro_tx1 {
+                            font-style: normal;
+                            color: black;
+                            font-size: 15px;
+                            font-family: "IBM Plex Sans", sans-serif;
+                            border: 7px solid darkgreen;
+                        }
+                    }
+                }
+
+                .mai_ro_blo2_ro_desc2 {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 37px;
+                    border: 7px solid darkgreen;
+
+                    @include doug_scre_2 {
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 37px;
+                        border: 7px solid darkgreen;  
+                    }
+
+                    @include doug_scre_3 {
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 53px;
+                        border: 7px solid darkgreen;  
+                    }
+
+                    @include doug_scre_4 {
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 73px;
+                        border: 7px solid darkgreen;  
+                    }
+                    .mai_ro_blo2_ro_desc2_ro_sol {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+
+                        @include doug_scre_2 {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            row-gap: 37px;
+                            flex-wrap: wrap;
+                        }
+
+                        @include doug_scre_3 {
+                            display: flex;
+                            flex-direction: row;
+                            row-gap: 53px;
+                            align-items: center;
+                            flex-wrap: wrap;
+                        }
+
+                        @include doug_scre_4 {
+                            display: flex;
+                            flex-direction: row;
+                            row-gap: 73px;
+                            align-items: flex-start;
+                            flex-wrap: wrap; 
+                        }
+                        .mai_ro_blo2_ro_desc2_ro {
+                            display: flex;
+                            height: 417px;
+                            overflow: hidden;
+                            flex-direction: column;
+                            max-width: 313px;
+                            cursor: pointer;
+                            border: 7px solid darkgreen;
+                            transition: 0.5s;
+                            &:hover {
+                                display: flex;
+                                height: 773px;
+                                flex-direction: column;
+                                cursor: pointer;
+                                box-shadow: 1px 1px 4px 8px black;
+                                max-width: 313px;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scre_2 {
+                                display: flex;
+                                height: 417px;
+                                overflow: hidden;
+                                flex-direction: column;
+                                max-width: 313px;
+                                cursor: pointer;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                &:hover {
+                                    display: flex;
+                                    height: 773px;
+                                    box-shadow: 1px 1px 4px 8px black;
+                                    flex-direction: column;
+                                    cursor: pointer;
+                                    max-width: 313px;
+                                    border: 7px solid darkgreen;
+                                }
+                            }
+
+                            @include doug_scre_3 {
+                                display: flex;
+                                height: 395px;
+                                overflow: hidden;
+                                flex-direction: column;
+                                max-width: 313px;
+                                cursor: pointer;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                &:hover {
+                                    display: flex;
+                                    height: 1165px;
+                                    flex-direction: column;
+                                    cursor: pointer;
+                                    max-width: 313px;
+                                    box-shadow: 1px 1px 4px 8px black;
+                                    border: 7px solid darkgreen;
+                                }
+                            }
+
+                            @include doug_scre_4 {
+                                display: flex;
+                                height: 417px;
+                                overflow: hidden;
+                                flex-direction: column;
+                                max-width: 417px;
+                                cursor: pointer;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                &:hover {
+                                    display: flex;
+                                    height: 1175px;
+                                    flex-direction: column;
+                                    box-shadow: 1px 1px 4px 8px black;
+                                    cursor: pointer;
+                                    max-width: 313px;
+                                    border: 7px solid darkgreen;
+                                }
+                            }
+                            .mai_ro_blo2_ro_desc2_ro_blo1 {
+                                border: 7px solid darkgreen;
+                                .mai_ro_blo2_ro_desc2_ro_blo1_ro {
+                                    display: flex;
+                                    flex-direction: column;
+                                    border: 7px solid darkgreen;
+                                    .mai_ro_blo2_ro_desc2_ro_blo1_ro_im1 {
+                                        width: 270px;
+                                        height: 273px;
+                                        border: 7px solid darkgreen;
+                                        transition: 0.5s;
+    
+                                        @include doug_scre_2 {
+                                            width: 270px;
+                                            height: 273px;
+                                            border: 7px solid darkgreen;
+                                            transition: 0.5s;
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            width: 257px;
+                                            height: 260px;
+                                            border: 7px solid darkgreen;
+                                            transition: 0.5s;
+                                        }
+    
+                                        @include doug_scre_4 {
+                                            width: 215px;
+                                            height: 218px;
+                                            border: 7px solid darkgreen;
+                                            transition: 0.5s;
+                                        }
+    
+                                        @include doug_scre_5 {
+                                            width: 178px;
+                                            height: 181px;
+                                            border: 7px solid darkgreen;
+                                            transition: 0.5s;
+                                        }
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo1_ro_tx1 {
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        color: black;
+                                        font-family: "IBM Plex Serif", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo1_ro_tx2 {
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        color: black;
+                                        font-family: "Source Sans 3", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+                            }
+    
+                            .mai_ro_blo2_ro_desc2_ro_blo2 {
+                                border: 7px solid darkgreen;
+                                .mai_ro_blo2_ro_desc2_ro_blo2_ro {
+                                    display: flex;
+                                    flex-direction: row;
+                                    border: 7px solid darkgreen;
+                                    .mai_ro_blo2_ro_desc2_ro_blo2_ro_tx1 {
+                                        font-style: normal;
+                                        font-family: "Source Serif 4", sans-serif;
+                                        font-size: 17px;
+                                        color: black;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+                            }
+    
+                            .mai_ro_blo2_ro_desc2_ro_blo3 {
+                                border: 7px solid darkgreen;
+                                .mai_ro_blo2_ro_desc2_ro_blo3_ro {
+                                    display: flex;
+                                    flex-direction: row;
+                                    column-gap: 17px;
+                                    justify-content: center;
+                                    border: 7px solid darkgreen;
+    
+                                    @include doug_scre_2 {
+                                        display: flex;
+                                        flex-direction: row;
+                                        column-gap: 17px;
+                                        justify-content: center;
+                                        border: 7px solid darkgreen;
+                                    }
+    
+                                    @include doug_scre_3 {
+                                        display: flex;
+                                        flex-direction: column;
+                                        column-gap: 19px;
+                                        align-items: center;
+                                        border: 7px solid darkgreen;
+                                    }
+    
+                                    @include doug_scre_4 {
+                                        display: flex;
+                                        flex-direction: column;
+                                        column-gap: 31px;
+                                        align-items: flex-start;
+                                        border: 7px solid darkgreen;
+                                    }
+                                    .mai_ro_blo2_ro_desc2_ro_blo3_ro_tx1 {
+                                        width: 51px;
+                                        height: 23px;
+                                        border: 1px solid #C25F28;
+                                        border-radius: 75px;
+                                        text-align: center;
+                                        background-color: transparent;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        cursor: pointer;
+                                        color: black;
+                                        font-family: "IBM Plex Serif", sans-serif;
+                                        transition: 0.5s;
+                                        &:hover {
+                                            width: 51px;
+                                            cursor: pointer;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: #C25F28;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            color: white;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                        }
+    
+                                        @include doug_scre_2 {
+                                            width: 51px;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 51px;
+                                                cursor: pointer;
+                                                height: 23px;
+                                                border: 1px solid #C25F28;
+                                                border-radius: 75px;
+                                                text-align: center;
+                                                background-color: #C25F28;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "IBM Plex Serif", sans-serif;
+                                            }
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            width: 51px;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 51px;
+                                                cursor: pointer;
+                                                height: 23px;
+                                                border: 1px solid #C25F28;
+                                                border-radius: 75px;
+                                                text-align: center;
+                                                background-color: #C25F28;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "IBM Plex Serif", sans-serif;
+                                            } 
+                                        }
+                                        @include doug_scre_4 {
+                                            width: 51px;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 51px;
+                                                cursor: pointer;
+                                                height: 23px;
+                                                border: 1px solid #C25F28;
+                                                border-radius: 75px;
+                                                text-align: center;
+                                                background-color: #C25F28;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "IBM Plex Serif", sans-serif;
+                                            } 
+                                        }
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo3_ro_tx2 {
+                                        width: 51px;
+                                        height: 23px;
+                                        border: 1px solid #C25F28;
+                                        border-radius: 75px;
+                                        text-align: center;
+                                        background-color: transparent;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        cursor: pointer;
+                                        color: black;
+                                        font-family: "IBM Plex Serif", sans-serif;
+                                        transition: 0.5s;
+                                        &:hover {
+                                            width: 51px;
+                                            cursor: pointer;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: #C25F28;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            color: white;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                        }
+    
+                                        @include doug_scre_2 {
+                                            width: 51px;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 51px;
+                                                cursor: pointer;
+                                                height: 23px;
+                                                border: 1px solid #C25F28;
+                                                border-radius: 75px;
+                                                text-align: center;
+                                                background-color: #C25F28;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "IBM Plex Serif", sans-serif;
+                                            }
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            width: 51px;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 51px;
+                                                cursor: pointer;
+                                                height: 23px;
+                                                border: 1px solid #C25F28;
+                                                border-radius: 75px;
+                                                text-align: center;
+                                                background-color: #C25F28;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "IBM Plex Serif", sans-serif;
+                                            } 
+                                        }
+                                        @include doug_scre_4 {
+                                            width: 51px;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 51px;
+                                                cursor: pointer;
+                                                height: 23px;
+                                                border: 1px solid #C25F28;
+                                                border-radius: 75px;
+                                                text-align: center;
+                                                background-color: #C25F28;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "IBM Plex Serif", sans-serif;
+                                            } 
+                                        }
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo3_ro_tx3 {
+                                        width: 51px;
+                                        height: 23px;
+                                        border: 1px solid #C25F28;
+                                        border-radius: 75px;
+                                        text-align: center;
+                                        background-color: transparent;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        cursor: pointer;
+                                        color: black;
+                                        font-family: "IBM Plex Serif", sans-serif;
+                                        transition: 0.5s;
+                                        &:hover {
+                                            width: 51px;
+                                            cursor: pointer;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: #C25F28;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            color: white;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                        }
+    
+                                        @include doug_scre_2 {
+                                            width: 51px;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 51px;
+                                                cursor: pointer;
+                                                height: 23px;
+                                                border: 1px solid #C25F28;
+                                                border-radius: 75px;
+                                                text-align: center;
+                                                background-color: #C25F28;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "IBM Plex Serif", sans-serif;
+                                            }
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            width: 51px;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 51px;
+                                                cursor: pointer;
+                                                height: 23px;
+                                                border: 1px solid #C25F28;
+                                                border-radius: 75px;
+                                                text-align: center;
+                                                background-color: #C25F28;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "IBM Plex Serif", sans-serif;
+                                            } 
+                                        }
+                                        @include doug_scre_4 {
+                                            width: 51px;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 51px;
+                                                cursor: pointer;
+                                                height: 23px;
+                                                border: 1px solid #C25F28;
+                                                border-radius: 75px;
+                                                text-align: center;
+                                                background-color: #C25F28;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "IBM Plex Serif", sans-serif;
+                                            } 
+                                        }
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo3_ro_tx4 {
+                                        width: 51px;
+                                        height: 23px;
+                                        border: 1px solid #C25F28;
+                                        border-radius: 75px;
+                                        text-align: center;
+                                        background-color: transparent;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        cursor: pointer;
+                                        color: black;
+                                        font-family: "IBM Plex Serif", sans-serif;
+                                        transition: 0.5s;
+                                        &:hover {
+                                            width: 51px;
+                                            cursor: pointer;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: #C25F28;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            color: white;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                        }
+                                        
+                                        @include doug_scre_2 {
+                                            width: 51px;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 51px;
+                                                cursor: pointer;
+                                                height: 23px;
+                                                border: 1px solid #C25F28;
+                                                border-radius: 75px;
+                                                text-align: center;
+                                                background-color: #C25F28;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "IBM Plex Serif", sans-serif;
+                                            }
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            width: 51px;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 51px;
+                                                cursor: pointer;
+                                                height: 23px;
+                                                border: 1px solid #C25F28;
+                                                border-radius: 75px;
+                                                text-align: center;
+                                                background-color: #C25F28;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "IBM Plex Serif", sans-serif;
+                                            } 
+                                        }
+                                        @include doug_scre_4 {
+                                            width: 51px;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 51px;
+                                                cursor: pointer;
+                                                height: 23px;
+                                                border: 1px solid #C25F28;
+                                                border-radius: 75px;
+                                                text-align: center;
+                                                background-color: #C25F28;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "IBM Plex Serif", sans-serif;
+                                            } 
+                                        }
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo3_ro_tx5 {
+                                        width: 51px;
+                                        height: 23px;
+                                        border: 1px solid #C25F28;
+                                        border-radius: 75px;
+                                        text-align: center;
+                                        background-color: transparent;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        cursor: pointer;
+                                        color: black;
+                                        font-family: "IBM Plex Serif", sans-serif;
+                                        transition: 0.5s;
+                                        &:hover {
+                                            width: 51px;
+                                            cursor: pointer;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: #C25F28;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            color: white;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                        }
+    
+                                        @include doug_scre_2 {
+                                            width: 51px;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 51px;
+                                                cursor: pointer;
+                                                height: 23px;
+                                                border: 1px solid #C25F28;
+                                                border-radius: 75px;
+                                                text-align: center;
+                                                background-color: #C25F28;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "IBM Plex Serif", sans-serif;
+                                            }
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            width: 51px;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 51px;
+                                                cursor: pointer;
+                                                height: 23px;
+                                                border: 1px solid #C25F28;
+                                                border-radius: 75px;
+                                                text-align: center;
+                                                background-color: #C25F28;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "IBM Plex Serif", sans-serif;
+                                            } 
+                                        }
+                                        @include doug_scre_4 {
+                                            width: 51px;
+                                            height: 23px;
+                                            border: 1px solid #C25F28;
+                                            border-radius: 75px;
+                                            text-align: center;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "IBM Plex Serif", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 51px;
+                                                cursor: pointer;
+                                                height: 23px;
+                                                border: 1px solid #C25F28;
+                                                border-radius: 75px;
+                                                text-align: center;
+                                                background-color: #C25F28;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "IBM Plex Serif", sans-serif;
+                                            } 
+                                        }
+                                    }
+                                }
+                            }
+    
+                            .mai_ro_blo2_ro_desc2_ro_blo4 {
+                                border: 7px solid darkgreen;
+                                .mai_ro_blo2_ro_desc2_ro_blo4_ro {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: flex-start;
+                                    border: 7px solid darkgreen;
+                                    .mai_ro_blo2_ro_desc2_ro_blo4_ro_tx1 {
+                                        font-style: normal;
+                                        font-size: 17px;
+                                        color: black;
+                                        font-family: "Source Serif 4", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+                            }
+    
+                            .mai_ro_blo2_ro_desc2_ro_blo5 {
+                                border: 7px solid darkgreen;
+                                .mai_ro_blo2_ro_desc2_ro_blo5_ro {
+                                    display: flex;
+                                    flex-direction: row;
+                                    column-gap: 5px;
+                                    align-items: center;
+                                    border: 7px solid darkgreen;
+    
+                                    @include doug_scre_2 {
+                                        display: flex;
+                                        flex-direction: row;
+                                        column-gap: 5px;
+                                        align-items: center;
+                                        border: 7px solid darkgreen;
+                                    }
+    
+                                    @include doug_scre_3 {
+                                        display: flex;
+                                        flex-direction: column;
+                                        column-gap: 5px;
+                                        align-items: center;
+                                        row-gap: 3px;
+                                        border: 7px solid darkgreen;
+                                    }
+    
+                                    @include doug_scre_4 {
+                                        display: flex;
+                                        flex-direction: column;
+                                        column-gap: 5px;
+                                        align-items: flex-start;
+                                        row-gap: 7px;
+                                        border: 7px solid darkgreen; 
+                                    }
+                                    .mai_ro_blo2_ro_desc2_ro_blo5_ro_sele1 {
+                                        position: relative;
+                                        width: 15px;
+                                        height: 15px;
+                                        appearance: none;
+                                        cursor: pointer;
+                                        border-radius: 75px;
+                                        border: 1px solid black;
+                                        transition: 0.5s;
+                                        &::after {
+                                            content: " ";
+                                            position: absolute;
+                                            width: 9px;
+                                            height: 9px;
+                                            left: 2px;
+                                            cursor: pointer;
+                                            bottom: 2px;
+                                            border-radius: 75px;
+                                            background-color: #DC4040;
+                                            transition: 0.5s;
+                                        }
+    
+                                        &:checked::after {
+                                            content: " ";
+                                            position: absolute;
+                                            width: 11px;
+                                            cursor: pointer;
+                                            height: 11px;
+                                            left: 1px;
+                                            bottom: 1px;
+                                            border-radius: 75px;
+                                            background-color: #DC4040;
+                                        }
+    
+                                        @include doug_scre_2 {
+                                            position: relative;
+                                            width: 15px;
+                                            height: 15px;
+                                            appearance: none;
+                                            cursor: pointer;
+                                            border-radius: 75px;
+                                            border: 1px solid black;
+                                            transition: 0.5s;
+                                            &::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 9px;
+                                                height: 9px;
+                                                left: 2px;
+                                                cursor: pointer;
+                                                bottom: 2px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                                transition: 0.5s;
+                                            }
+        
+                                            &:checked::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 11px;
+                                                cursor: pointer;
+                                                height: 11px;
+                                                left: 1px;
+                                                bottom: 1px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                            }
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            position: relative;
+                                            width: 15px;
+                                            height: 15px;
+                                            appearance: none;
+                                            cursor: pointer;
+                                            border-radius: 75px;
+                                            border: 1px solid black;
+                                            transition: 0.5s;
+                                            &::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 9px;
+                                                height: 9px;
+                                                left: 2px;
+                                                cursor: pointer;
+                                                bottom: 2px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                                transition: 0.5s;
+                                            }
+        
+                                            &:checked::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 11px;
+                                                cursor: pointer;
+                                                height: 11px;
+                                                left: 1px;
+                                                bottom: 1px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                            }
+                                        }
+    
+                                        @include doug_scre_4 {
+                                            position: relative;
+                                            width: 15px;
+                                            height: 15px;
+                                            appearance: none;
+                                            cursor: pointer;
+                                            border-radius: 75px;
+                                            border: 1px solid black;
+                                            transition: 0.5s;
+                                            &::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 9px;
+                                                height: 9px;
+                                                left: 2px;
+                                                cursor: pointer;
+                                                bottom: 2px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                                transition: 0.5s;
+                                            }
+        
+                                            &:checked::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 11px;
+                                                cursor: pointer;
+                                                height: 11px;
+                                                left: 1px;
+                                                bottom: 1px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                            }
+                                        }
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo5_ro_tx1 {
+                                        font-style: normal;
+                                        font-size: 17px;
+                                        color: black;
+                                        font-family: "Source Serif 4", sans-serif;
+                                        border: 7px solid darkgreen;
+    
+                                        @include doug_scre_2 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+    
+                                        @include doug_scre_4 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo5_ro_sele2 {
+                                        position: relative;
+                                        width: 15px;
+                                        height: 15px;
+                                        appearance: none;
+                                        cursor: pointer;
+                                        border-radius: 75px;
+                                        border: 1px solid black;
+                                        transition: 0.5s;
+                                        &::after {
+                                            content: " ";
+                                            position: absolute;
+                                            width: 9px;
+                                            height: 9px;
+                                            left: 2px;
+                                            cursor: pointer;
+                                            bottom: 2px;
+                                            border-radius: 75px;
+                                            background-color: #CC6328;
+                                            transition: 0.5s;
+                                        }
+    
+                                        &:checked::after {
+                                            content: " ";
+                                            position: absolute;
+                                            width: 11px;
+                                            cursor: pointer;
+                                            height: 11px;
+                                            left: 1px;
+                                            bottom: 1px;
+                                            border-radius: 75px;
+                                            background-color: #CC6328;
+                                        }
+    
+                                        @include doug_scre_2 {
+                                            position: relative;
+                                            width: 15px;
+                                            height: 15px;
+                                            appearance: none;
+                                            cursor: pointer;
+                                            border-radius: 75px;
+                                            border: 1px solid black;
+                                            transition: 0.5s;
+                                            &::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 9px;
+                                                height: 9px;
+                                                left: 2px;
+                                                cursor: pointer;
+                                                bottom: 2px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                                transition: 0.5s;
+                                            }
+        
+                                            &:checked::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 11px;
+                                                cursor: pointer;
+                                                height: 11px;
+                                                left: 1px;
+                                                bottom: 1px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                            }
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            position: relative;
+                                            width: 15px;
+                                            height: 15px;
+                                            appearance: none;
+                                            cursor: pointer;
+                                            border-radius: 75px;
+                                            border: 1px solid black;
+                                            transition: 0.5s;
+                                            &::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 9px;
+                                                height: 9px;
+                                                left: 2px;
+                                                cursor: pointer;
+                                                bottom: 2px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                                transition: 0.5s;
+                                            }
+        
+                                            &:checked::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 11px;
+                                                cursor: pointer;
+                                                height: 11px;
+                                                left: 1px;
+                                                bottom: 1px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                            }
+                                        }
+    
+                                        @include doug_scre_4 {
+                                            position: relative;
+                                            width: 15px;
+                                            height: 15px;
+                                            appearance: none;
+                                            cursor: pointer;
+                                            border-radius: 75px;
+                                            border: 1px solid black;
+                                            transition: 0.5s;
+                                            &::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 9px;
+                                                height: 9px;
+                                                left: 2px;
+                                                cursor: pointer;
+                                                bottom: 2px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                                transition: 0.5s;
+                                            }
+        
+                                            &:checked::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 11px;
+                                                cursor: pointer;
+                                                height: 11px;
+                                                left: 1px;
+                                                bottom: 1px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                            }
+                                        }
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo5_ro_tx2 {
+                                        font-style: normal;
+                                        font-size: 17px;
+                                        color: black;
+                                        font-family: "Source Serif 4", sans-serif;
+                                        border: 7px solid darkgreen;
+    
+                                        @include doug_scre_2 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+    
+                                        @include doug_scre_4 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo5_ro_sele3 {
+                                        position: relative;
+                                        width: 15px;
+                                        height: 15px;
+                                        appearance: none;
+                                        cursor: pointer;
+                                        border-radius: 75px;
+                                        border: 1px solid black;
+                                        transition: 0.5s;
+                                        &::after {
+                                            content: " ";
+                                            position: absolute;
+                                            width: 9px;
+                                            height: 9px;
+                                            left: 2px;
+                                            cursor: pointer;
+                                            bottom: 2px;
+                                            border-radius: 75px;
+                                            background-color: #DBC925;
+                                            transition: 0.5s;
+                                        }
+    
+                                        &:checked::after {
+                                            content: " ";
+                                            position: absolute;
+                                            width: 11px;
+                                            cursor: pointer;
+                                            height: 11px;
+                                            left: 1px;
+                                            bottom: 1px;
+                                            border-radius: 75px;
+                                            background-color: #DBC925;
+                                        }
+    
+                                        @include doug_scre_2 {
+                                            position: relative;
+                                            width: 15px;
+                                            height: 15px;
+                                            appearance: none;
+                                            cursor: pointer;
+                                            border-radius: 75px;
+                                            border: 1px solid black;
+                                            transition: 0.5s;
+                                            &::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 9px;
+                                                height: 9px;
+                                                left: 2px;
+                                                cursor: pointer;
+                                                bottom: 2px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                                transition: 0.5s;
+                                            }
+        
+                                            &:checked::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 11px;
+                                                cursor: pointer;
+                                                height: 11px;
+                                                left: 1px;
+                                                bottom: 1px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                            }
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            position: relative;
+                                            width: 15px;
+                                            height: 15px;
+                                            appearance: none;
+                                            cursor: pointer;
+                                            border-radius: 75px;
+                                            border: 1px solid black;
+                                            transition: 0.5s;
+                                            &::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 9px;
+                                                height: 9px;
+                                                left: 2px;
+                                                cursor: pointer;
+                                                bottom: 2px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                                transition: 0.5s;
+                                            }
+        
+                                            &:checked::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 11px;
+                                                cursor: pointer;
+                                                height: 11px;
+                                                left: 1px;
+                                                bottom: 1px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                            }
+                                        }
+    
+                                        @include doug_scre_4 {
+                                            position: relative;
+                                            width: 15px;
+                                            height: 15px;
+                                            appearance: none;
+                                            cursor: pointer;
+                                            border-radius: 75px;
+                                            border: 1px solid black;
+                                            transition: 0.5s;
+                                            &::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 9px;
+                                                height: 9px;
+                                                left: 2px;
+                                                cursor: pointer;
+                                                bottom: 2px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                                transition: 0.5s;
+                                            }
+        
+                                            &:checked::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 11px;
+                                                cursor: pointer;
+                                                height: 11px;
+                                                left: 1px;
+                                                bottom: 1px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                            }
+                                        }
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo5_ro_tx3 {
+                                        font-style: normal;
+                                        font-size: 17px;
+                                        color: black;
+                                        font-family: "Source Serif 4", sans-serif;
+                                        border: 7px solid darkgreen;
+    
+                                        @include doug_scre_2 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+    
+                                        @include doug_scre_4 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo5_ro_sele4 {
+                                        position: relative;
+                                        width: 15px;
+                                        height: 15px;
+                                        appearance: none;
+                                        cursor: pointer;
+                                        border-radius: 75px;
+                                        border: 1px solid black;
+                                        transition: 0.5s;
+                                        &::after {
+                                            content: " ";
+                                            position: absolute;
+                                            width: 9px;
+                                            height: 9px;
+                                            left: 2px;
+                                            cursor: pointer;
+                                            bottom: 2px;
+                                            border-radius: 75px;
+                                            background-color: #4EC325;
+                                            transition: 0.5s;
+                                        }
+    
+                                        &:checked::after {
+                                            content: " ";
+                                            position: absolute;
+                                            width: 11px;
+                                            cursor: pointer;
+                                            height: 11px;
+                                            left: 1px;
+                                            bottom: 1px;
+                                            border-radius: 75px;
+                                            background-color: #4EC325;
+                                        }
+    
+                                        @include doug_scre_2 {
+                                            position: relative;
+                                            width: 15px;
+                                            height: 15px;
+                                            appearance: none;
+                                            cursor: pointer;
+                                            border-radius: 75px;
+                                            border: 1px solid black;
+                                            transition: 0.5s;
+                                            &::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 9px;
+                                                height: 9px;
+                                                left: 2px;
+                                                cursor: pointer;
+                                                bottom: 2px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                                transition: 0.5s;
+                                            }
+        
+                                            &:checked::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 11px;
+                                                cursor: pointer;
+                                                height: 11px;
+                                                left: 1px;
+                                                bottom: 1px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                            }
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            position: relative;
+                                            width: 15px;
+                                            height: 15px;
+                                            appearance: none;
+                                            cursor: pointer;
+                                            border-radius: 75px;
+                                            border: 1px solid black;
+                                            transition: 0.5s;
+                                            &::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 9px;
+                                                height: 9px;
+                                                left: 2px;
+                                                cursor: pointer;
+                                                bottom: 2px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                                transition: 0.5s;
+                                            }
+        
+                                            &:checked::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 11px;
+                                                cursor: pointer;
+                                                height: 11px;
+                                                left: 1px;
+                                                bottom: 1px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                            }
+                                        }
+    
+                                        @include doug_scre_4 {
+                                            position: relative;
+                                            width: 15px;
+                                            height: 15px;
+                                            appearance: none;
+                                            cursor: pointer;
+                                            border-radius: 75px;
+                                            border: 1px solid black;
+                                            transition: 0.5s;
+                                            &::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 9px;
+                                                height: 9px;
+                                                left: 2px;
+                                                cursor: pointer;
+                                                bottom: 2px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                                transition: 0.5s;
+                                            }
+        
+                                            &:checked::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 11px;
+                                                cursor: pointer;
+                                                height: 11px;
+                                                left: 1px;
+                                                bottom: 1px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                            }
+                                        }
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo5_ro_tx4 {
+                                        font-style: normal;
+                                        font-size: 17px;
+                                        color: black;
+                                        font-family: "Source Serif 4", sans-serif;
+                                        border: 7px solid darkgreen;
+    
+                                        @include doug_scre_2 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+    
+                                        @include doug_scre_4 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo5_ro_sele5 {
+                                        position: relative;
+                                        width: 15px;
+                                        height: 15px;
+                                        appearance: none;
+                                        cursor: pointer;
+                                        border-radius: 75px;
+                                        border: 1px solid black;
+                                        transition: 0.5s;
+                                        &::after {
+                                            content: " ";
+                                            position: absolute;
+                                            width: 9px;
+                                            height: 9px;
+                                            left: 2px;
+                                            cursor: pointer;
+                                            bottom: 2px;
+                                            border-radius: 75px;
+                                            background-color: #4564B4;
+                                            transition: 0.5s;
+                                        }
+    
+                                        &:checked::after {
+                                            content: " ";
+                                            position: absolute;
+                                            width: 11px;
+                                            cursor: pointer;
+                                            height: 11px;
+                                            left: 1px;
+                                            bottom: 1px;
+                                            border-radius: 75px;
+                                            background-color: #4564B4;
+                                        }
+    
+                                        @include doug_scre_2 {
+                                            position: relative;
+                                            width: 15px;
+                                            height: 15px;
+                                            appearance: none;
+                                            cursor: pointer;
+                                            border-radius: 75px;
+                                            border: 1px solid black;
+                                            transition: 0.5s;
+                                            &::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 9px;
+                                                height: 9px;
+                                                left: 2px;
+                                                cursor: pointer;
+                                                bottom: 2px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                                transition: 0.5s;
+                                            }
+        
+                                            &:checked::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 11px;
+                                                cursor: pointer;
+                                                height: 11px;
+                                                left: 1px;
+                                                bottom: 1px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                            }
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            position: relative;
+                                            width: 15px;
+                                            height: 15px;
+                                            appearance: none;
+                                            cursor: pointer;
+                                            border-radius: 75px;
+                                            border: 1px solid black;
+                                            transition: 0.5s;
+                                            &::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 9px;
+                                                height: 9px;
+                                                left: 2px;
+                                                cursor: pointer;
+                                                bottom: 2px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                                transition: 0.5s;
+                                            }
+        
+                                            &:checked::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 11px;
+                                                cursor: pointer;
+                                                height: 11px;
+                                                left: 1px;
+                                                bottom: 1px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                            }
+                                        }
+    
+                                        @include doug_scre_4 {
+                                            position: relative;
+                                            width: 15px;
+                                            height: 15px;
+                                            appearance: none;
+                                            cursor: pointer;
+                                            border-radius: 75px;
+                                            border: 1px solid black;
+                                            transition: 0.5s;
+                                            &::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 9px;
+                                                height: 9px;
+                                                left: 2px;
+                                                cursor: pointer;
+                                                bottom: 2px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                                transition: 0.5s;
+                                            }
+        
+                                            &:checked::after {
+                                                content: " ";
+                                                position: absolute;
+                                                width: 11px;
+                                                cursor: pointer;
+                                                height: 11px;
+                                                left: 1px;
+                                                bottom: 1px;
+                                                border-radius: 75px;
+                                                background-color: #DC4040;
+                                            }
+                                        }
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo5_ro_tx5 {
+                                        font-style: normal;
+                                        font-size: 17px;
+                                        color: black;
+                                        font-family: "Source Serif 4", sans-serif;
+                                        border: 7px solid darkgreen;
+    
+                                        @include doug_scre_2 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+    
+                                        @include doug_scre_4 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            .mai_ro_blo2_ro_desc2_ro_blo6 {
+                                border: 7px solid darkgreen;
+                                .mai_ro_blo2_ro_desc2_ro_blo6_ro {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: flex-start;
+                                    border: 7px solid darkgreen;
+    
+                                    @include doug_scre_2 {
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: flex-start;
+                                        border: 7px solid darkgreen;  
+                                    }
+    
+                                    @include doug_scre_3 {
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: center;
+                                        border: 7px solid darkgreen;  
+                                    }
+    
+                                    @include doug_scre_4 {
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: flex-start;
+                                        border: 7px solid darkgreen;
+                                    }
+                                    .mai_ro_blo2_ro_desc2_ro_blo6_ro_tx1 {
+                                        font-style: normal;
+                                        font-size: 17px;
+                                        color: black;
+                                        font-family: "Source Serif 4", sans-serif;
+                                        border: 7px solid darkgreen;
+    
+                                        @include doug_scre_2 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+    
+                                        @include doug_scre_4 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            color: black;
+                                            font-family: "Source Serif 4", sans-serif;
+                                            border: 7px solid darkgreen;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            .mai_ro_blo2_ro_desc2_ro_blo7 {
+                                border: 7px solid darkgreen;
+                                .mai_ro_blo2_ro_desc2_ro_blo7_ro {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: flex-end;
+                                    border: 7px solid darkgreen;
+    
+                                    @include doug_scre_2 {
+                                        display: flex;
+                                        flex-direction: row;
+                                        border: 7px solid darkgreen;
+                                    }
+    
+                                    @include doug_scre_3 {
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        border: 7px solid darkgreen;
+                                    }
+    
+                                    @include doug_scre_4 {
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: flex-start;
+                                        border: 7px solid darkgreen;
+                                    }
+                                    .mai_ro_blo2_ro_desc2_ro_blo7_ro_tx1 {
+                                        font-style: normal;
+                                        color: black;
+                                        font-size: 17px;
+                                        font-family: "Source Serif Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                        margin-right: auto;
+    
+                                        @include doug_scre_2 {
+                                            font-style: normal;
+                                            color: black;
+                                            font-size: 17px;
+                                            font-family: "Source Serif Pro", sans-serif;
+                                            border: 7px solid darkgreen;
+                                            margin-right: auto;
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            font-style: normal;
+                                            color: black;
+                                            font-size: 17px;
+                                            font-family: "Source Serif Pro", sans-serif;
+                                            border: 7px solid darkgreen;
+                                            margin-right: 0px;
+                                        }
+    
+                                        @include doug_scre_4 {
+                                            font-style: normal;
+                                            color: black;
+                                            font-size: 17px;
+                                            font-family: "Source Serif Pro", sans-serif;
+                                            border: 7px solid darkgreen;
+                                            margin-right: 0px;
+                                        }
+                                    }
+    
+                                    .mai_ro_blo2_ro_desc2_ro_blo7_ro_but {
+                                        align-self: center;
+                                        width: 87px;
+                                        height: 25px;
+                                        border: 1px solid #3CA9C1;
+                                        background-color: transparent;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        cursor: pointer;
+                                        color: black;
+                                        font-family: "Source Sans 3", sans-serif;
+                                        transition: 0.5s;
+                                        &:hover {
+                                            width: 87px;
+                                            height: 25px;
+                                            cursor: pointer;
+                                            border: 1px solid #3CA9C1;
+                                            background-color: #3CA9C1;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            color: white;
+                                            font-family: "Source Sans 3", sans-serif;
+                                        }
+    
+                                        @include doug_scre_2 {
+                                            align-self: center;
+                                            width: 87px;
+                                            height: 25px;
+                                            border: 1px solid #3CA9C1;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "Source Sans 3", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 87px;
+                                                height: 25px;
+                                                cursor: pointer;
+                                                border: 1px solid #3CA9C1;
+                                                background-color: #3CA9C1;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "Source Sans 3", sans-serif;
+                                            }
+                                        }
+    
+                                        @include doug_scre_3 {
+                                            align-self: center;
+                                            width: 87px;
+                                            height: 25px;
+                                            border: 1px solid #3CA9C1;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "Source Sans 3", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 87px;
+                                                height: 25px;
+                                                cursor: pointer;
+                                                border: 1px solid #3CA9C1;
+                                                background-color: #3CA9C1;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "Source Sans 3", sans-serif;
+                                            }
+                                        }
+    
+                                        @include doug_scre_4 {
+                                            align-self: flex-start;
+                                            width: 87px;
+                                            height: 25px;
+                                            border: 1px solid #3CA9C1;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 15px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "Source Sans 3", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 87px;
+                                                height: 25px;
+                                                cursor: pointer;
+                                                border: 1px solid #3CA9C1;
+                                                background-color: #3CA9C1;
+                                                font-style: normal;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-family: "Source Sans 3", sans-serif;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .mai_ro_blo2_ro_desc3 {
+                    border: 7px solid darkgreen;
+                    .mai_ro_blo2_ro_desc3_ro {
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: 97px;
+                        justify-content: space-between;
+                        border: 7px solid darkgreen;
+
+                        @include doug_scre_2 {
+                            display: flex;
+                            flex-direction: row;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include doug_scre_3 {
+                            display: flex;
+                            flex-direction: column;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include doug_scre_4 {
+                            display: flex;
+                            flex-direction: column;
+                            border: 7px solid darkgreen;
+                        }
+                        .mai_ro_blo2_ro_desc3_ro_blo1 {
+                            border: 7px solid darkgreen;
+                            .mai_ro_blo2_ro_desc3_ro_blo1_ro {
+                                display: flex;
+                                flex-direction: column;
+                                column-gap: 30px;
+                                max-width: 1317px;
+                                border: 7px solid darkgreen;
+                                .mai_ro_blo2_ro_desc3_ro_blo1_ro_tx1 {
+                                    align-self: flex-start;
+                                    font-style: normal;
+                                    color: black;
+                                    font-size: 17px;
+                                    font-family: "Source Serif 4", sans-serif;
+                                    border: 7px solid darkgreen;
+
+                                    @include doug_scre_2 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        color: black;
+                                        font-size: 17px;
+                                        font-family: "Source Serif 4", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scre_3 {
+                                        align-self: center;
+                                        font-style: normal;
+                                        color: black;
+                                        font-size: 17px;
+                                        font-family: "Source Serif 4", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scre_4 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        color: black;
+                                        font-size: 17px;
+                                        font-family: "Source Serif 4", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+
+                                .mai_ro_blo2_ro_desc3_ro_blo1_ro_tx2 {
+                                    align-self: flex-start;
+                                    font-style: normal;
+                                    color: black;
+                                    font-family: "Source Sans 3", sans-serif;
+                                    font-size: 15px;
+                                    border: 7px solid darkgreen;
+
+                                    @include doug_scre_2 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        color: black;
+                                        font-family: "Source Sans 3", sans-serif;
+                                        font-size: 15px;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scre_3 {
+                                        align-self: center;
+                                        font-style: normal;
+                                        color: black;
+                                        font-family: "Source Sans 3", sans-serif;
+                                        font-size: 15px;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scre_4 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        color: black;
+                                        font-family: "Source Sans 3", sans-serif;
+                                        font-size: 15px;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+
+                                .mai_ro_blo2_ro_desc3_ro_blo1_ro_but1 {
+                                    align-self: flex-end;
+                                    width: 101px;
+                                    height: 27px;
+                                    border: 1px solid #4DB9D0;
+                                    background-color: transparent;
+                                    font-style: normal;
+                                    color: black;
+                                    cursor: pointer;
+                                    font-size: 15px;
+                                    font-family: "Source Sans 3", sans-serif;
+                                    transition: 0.5s;
+                                    &:hover {
+                                        width: 101px;
+                                        height: 27px;
+                                        cursor: pointer;
+                                        border: 1px solid #4DB9D0;
+                                        background-color: #4DB9D0;
+                                        font-style: normal;
+                                        color: white;
+                                        font-size: 15px;
+                                        font-family: "Source Sans 3", sans-serif;
+                                    }
+
+                                    @include doug_scre_2 {
+                                        align-self: flex-end;
+                                        width: 101px;
+                                        height: 27px;
+                                        border: 1px solid #4DB9D0;
+                                        background-color: transparent;
+                                        font-style: normal;
+                                        color: black;
+                                        cursor: pointer;
+                                        font-size: 15px;
+                                        font-family: "Source Sans 3", sans-serif;
+                                        transition: 0.5s;
+                                        &:hover {
+                                            width: 101px;
+                                            height: 27px;
+                                            cursor: pointer;
+                                            border: 1px solid #4DB9D0;
+                                            background-color: #4DB9D0;
+                                            font-style: normal;
+                                            color: white;
+                                            font-size: 15px;
+                                            font-family: "Source Sans 3", sans-serif;
+                                        }
+                                    }
+
+                                    @include doug_scre_3 {
+                                        align-self: center;
+                                        width: 101px;
+                                        height: 27px;
+                                        border: 1px solid #4DB9D0;
+                                        background-color: transparent;
+                                        font-style: normal;
+                                        color: black;
+                                        cursor: pointer;
+                                        font-size: 15px;
+                                        font-family: "Source Sans 3", sans-serif;
+                                        transition: 0.5s;
+                                        &:hover {
+                                            width: 101px;
+                                            height: 27px;
+                                            cursor: pointer;
+                                            border: 1px solid #4DB9D0;
+                                            background-color: #4DB9D0;
+                                            font-style: normal;
+                                            color: white;
+                                            font-size: 15px;
+                                            font-family: "Source Sans 3", sans-serif;
+                                        }
+                                    }
+
+                                    @include doug_scre_4 {
+                                        align-self: flex-start;
+                                        width: 101px;
+                                        height: 27px;
+                                        border: 1px solid #4DB9D0;
+                                        background-color: transparent;
+                                        font-style: normal;
+                                        color: black;
+                                        cursor: pointer;
+                                        font-size: 15px;
+                                        font-family: "Source Sans 3", sans-serif;
+                                        transition: 0.5s;
+                                        &:hover {
+                                            width: 101px;
+                                            height: 27px;
+                                            cursor: pointer;
+                                            border: 1px solid #4DB9D0;
+                                            background-color: #4DB9D0;
+                                            font-style: normal;
+                                            color: white;
+                                            font-size: 15px;
+                                            font-family: "Source Sans 3", sans-serif;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .mai_ro_blo2_ro_desc3_ro_blo2 {
+                            border: 7px solid darkgreen;
+                            .mai_ro_blo2_ro_desc3_ro_blo2_ro {
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: flex-start;
+
+                                @include doug_scre_2 {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: flex-start;
+                                }
+
+                                @include doug_scre_3 {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: center;
+                                }
+
+                                @include doug_scre_4 {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: flex-start;
+                                }
+                                border: 7px solid darkgreen;
+                                .mai_ro_blo2_ro_desc3_ro_blo2_ro_img {
+                                    width: 203px;
+                                    height: 197px;
+                                    border: 7px solid darkgreen;
+
+                                    @include doug_scre_2 {
+                                        width: 203px;
+                                        height: 197px;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scre_3 {
+                                        width: 170px;
+                                        height: 173px;
+                                        border: 7px solid darkgreen; 
+                                    }
+
+                                    @include doug_scre_4 {
+                                        width: 170px;
+                                        height: 173px;
+                                        border: 7px solid darkgreen; 
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .mai_ro_blo2_ro_desc4 {
+                    border: 7px solid darkgreen;
+                    .mai_ro_blo2_ro_desc4_ro {
+                        display: flex;
+                        flex-direction: column;
+                        border: 7px solid darkgreen;
+                        .mai_ro_blo2_ro_desc4_ro_blo1 {
+                            border: 7px solid darkgreen;
+                            .mai_ro_blo2_ro_desc4_ro_blo1_ro {
+                                display: flex;
+                                flex-direction: row;
+                                margin-top: 153px;
+                                justify-content: center;
+                                border: 7px solid darkgreen;
+
+                                @include doug_scre_2 {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: center;
+                                    border: 7px solid darkgreen;
+                                }
+
+                                @include doug_scre_3 {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: center;
+                                    border: 7px solid darkgreen;
+                                }
+
+                                @include doug_scre_4 {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: flex-start;
+                                    border: 7px solid darkgreen;
+                                }
+                                .mai_ro_blo2_ro_desc4_ro_blo1_ro_tx1 {
+                                    font-style: normal;
+                                    font-size: 17px;
+                                    color: black;
+                                    font-family: "IBM Plex Sans", sans-serif;
+                                    border: 7px solid darkgreen;
+
+                                    @include doug_scre_2 {
+                                        font-style: normal;
+                                        font-size: 17px;
+                                        color: black;
+                                        font-family: "IBM Plex Sans", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scre_3 {
+                                        font-style: normal;
+                                        font-size: 17px;
+                                        color: black;
+                                        font-family: "IBM Plex Sans", sans-serif;
+                                        border: 7px solid darkgreen; 
+                                    }
+
+                                    @include doug_scre_4 {
+                                        font-style: normal;
+                                        font-size: 17px;
+                                        color: black;
+                                        font-family: "IBM Plex Sans", sans-serif;
+                                        border: 7px solid darkgreen;    
+                                    }
+                                }
+                            }
+                        }
+
+                        .mai_ro_blo2_ro_desc4_ro_blo2 {
+                            border: 7px solid darkgreen;
+                            .mai_ro_blo2_ro_desc4_ro_blo2_ro {
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                                justify-content: space-between;
+                                border: 7px solid darkgreen;
+
+                                @include doug_scre_2 {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    border: 7px solid darkgreen;
+                                }
+
+                                @include doug_scre_3 {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    flex-wrap: wrap;
+                                    border: 7px solid darkgreen;
+                                }
+
+                                @include doug_scre_4 {
+                                    display: flex;
+                                    flex-direction: column;
+                                    flex-wrap: wrap;
+                                    align-items: flex-start;
+                                    border: 7px solid darkgreen;
+                                }
+                                .mai_ro_blo2_ro_desc4_ro_blo2_ro_im1 {
+                                    position: relative;
+                                    width: 129px;
+                                    height: 135px;
+                                    border: 7px solid darkgreen;
+
+                                    @include doug_scre_2 {
+                                        position: relative;
+                                        width: 129px;
+                                        height: 135px;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scre_3 {
+                                        position: relative;
+                                        width: 113px;
+                                        height: 119px;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scre_4 {
+                                        position: relative;
+                                        width: 97px;
+                                        height: 103px;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+
+                                .mai_ro_blo2_ro_desc4_ro_blo2_ro_im2 {
+                                    width: 137px;
+                                    height: 135px;
+                                    border: 7px solid darkgreen;
+
+                                    @include doug_scre_2 {
+                                        width: 137px;
+                                        height: 135px;
+                                        border: 7px solid darkgreen;
+                                    }
+                                    
+                                    @include doug_scre_3 {
+                                        width: 127px;
+                                        height: 125px;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scre_4 {
+                                        width: 93px;
+                                        height: 91px;
+                                        border: 7px solid darkgreen;  
+                                    }
+                                }
+
+                                .mai_ro_blo2_ro_desc4_ro_blo2_ro_im3 {
+                                    width: 143px;
+                                    height: 135px;
+                                    border: 7px solid darkgreen;
+
+                                    @include doug_scre_2 {
+                                        width: 143px;
+                                        height: 135px;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scre_3 {
+                                        width: 123px;
+                                        height: 115px;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scre_4 {
+                                        width: 91px;
+                                        height: 83px;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+
+                                .mai_ro_blo2_ro_desc4_ro_blo2_ro_im4 {
+                                    width: 133px;
+                                    height: 135px;
+                                    border: 7px solid darkgreen;
+
+                                    @include doug_scre_2 {
+                                        width: 133px;
+                                        height: 135px;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scre_3 {
+                                        width: 119px;
+                                        height: 121px;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scre_4 {
+                                        width: 93px;
+                                        height: 95px;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+
+
+                                .mai_ro_blo2_ro_desc4_ro_blo2_ro_im5 {
+                                    width: 139px;
+                                    height: 135px;
+                                    border: 7px solid darkgreen;
+
+                                    @include doug_scre_2 {
+                                        width: 139px;
+                                        height: 135px;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scre_3 {
+                                        width: 119px;
+                                        height: 121px;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scre_4 {
+                                        width: 107px;
+                                        height: 109px;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
