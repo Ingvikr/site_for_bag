@@ -4178,6 +4178,46 @@
   }
 }
 
+.foote {
+  border: 7px solid darkgreen;
+}
+.foote .foote_ro {
+  border: 7px solid darkgreen;
+}
+.foote .foote_ro .foote_ro_blo1 {
+  border: 7px solid darkgreen;
+}
+.foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro {
+  border: 7px solid darkgreen;
+}
+.foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_ro_tx1 {
+  border: 7px solid darkgreen;
+}
+.foote .foote_ro .foote_ro_blo2 {
+  border: 7px solid darkgreen;
+}
+.foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro {
+  border: 7px solid darkgreen;
+}
+.foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 {
+  border: 7px solid darkgreen;
+}
+.foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro {
+  border: 7px solid darkgreen;
+}
+.foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx1 {
+  border: 7px solid darkgreen;
+}
+.foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx2 {
+  border: 7px solid darkgreen;
+}
+.foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx3 {
+  border: 7px solid darkgreen;
+}
+.foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx4 {
+  border: 7px solid darkgreen;
+}
+
 .wrappe {
   border: 7px solid darkblue;
 }
