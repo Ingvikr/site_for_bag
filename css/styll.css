@@ -4178,44 +4178,204 @@
   }
 }
 
-.foote {
-  border: 7px solid darkgreen;
-}
 .foote .foote_ro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   border: 7px solid darkgreen;
 }
 .foote .foote_ro .foote_ro_blo1 {
   border: 7px solid darkgreen;
 }
 .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   border: 7px solid darkgreen;
 }
 .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_ro_tx1 {
+  font-style: normal;
+  color: black;
+  font-size: 19px;
+  font-family: "Pathway Gothic One", sans-serif;
   border: 7px solid darkgreen;
 }
 .foote .foote_ro .foote_ro_blo2 {
   border: 7px solid darkgreen;
 }
 .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border: 7px solid darkgreen;
 }
 .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 {
   border: 7px solid darkgreen;
 }
 .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border: 7px solid darkgreen;
 }
 .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx1 {
+  position: relative;
+  font-style: normal;
+  font-size: 15px;
+  cursor: pointer;
+  color: black;
+  font-family: "Source Serif Pro", sans-serif;
   border: 7px solid darkgreen;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx1::after {
+  content: " ";
+  position: absolute;
+  cursor: pointer;
+  width: 0px;
+  height: 5px;
+  border-radius: 75px;
+  background-color: black;
+  left: 0px;
+  bottom: -1px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx1:hover::after {
+  content: " ";
+  position: absolute;
+  cursor: pointer;
+  width: 56px;
+  height: 5px;
+  border-radius: 75px;
+  background-color: black;
+  left: 0px;
+  bottom: -1px;
 }
 .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx2 {
+  position: relative;
+  font-style: normal;
+  font-size: 15px;
+  cursor: pointer;
+  color: black;
+  font-family: "Source Serif Pro", sans-serif;
   border: 7px solid darkgreen;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx2::after {
+  content: " ";
+  position: absolute;
+  cursor: pointer;
+  width: 0px;
+  height: 5px;
+  border-radius: 75px;
+  background-color: black;
+  left: 0px;
+  bottom: -1px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx2:hover::after {
+  content: " ";
+  position: absolute;
+  cursor: pointer;
+  width: 56px;
+  height: 5px;
+  border-radius: 75px;
+  background-color: black;
+  left: 0px;
+  bottom: -1px;
 }
 .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx3 {
+  position: relative;
+  font-style: normal;
+  font-size: 15px;
+  cursor: pointer;
+  color: black;
+  font-family: "Source Serif Pro", sans-serif;
   border: 7px solid darkgreen;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx3::after {
+  content: " ";
+  position: absolute;
+  cursor: pointer;
+  width: 0px;
+  height: 5px;
+  border-radius: 75px;
+  background-color: black;
+  left: 0px;
+  bottom: -1px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx3:hover::after {
+  content: " ";
+  position: absolute;
+  cursor: pointer;
+  width: 39px;
+  height: 5px;
+  border-radius: 75px;
+  background-color: black;
+  left: 0px;
+  bottom: -1px;
 }
 .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx4 {
+  position: relative;
+  font-style: normal;
+  font-size: 15px;
+  cursor: pointer;
+  color: black;
+  font-family: "Source Serif Pro", sans-serif;
   border: 7px solid darkgreen;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx4::after {
+  content: " ";
+  position: absolute;
+  cursor: pointer;
+  width: 0px;
+  height: 5px;
+  border-radius: 75px;
+  background-color: black;
+  left: 0px;
+  bottom: -1px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx4:hover::after {
+  content: " ";
+  position: absolute;
+  cursor: pointer;
+  width: 39px;
+  height: 5px;
+  border-radius: 75px;
+  background-color: black;
+  left: 0px;
+  bottom: -1px;
 }
 
 .wrappe {
@@ -4243,8 +4403,8 @@
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  -ms-flex-preferred-size: 3117px;
-      flex-basis: 3117px;
+  -ms-flex-preferred-size: 3115px;
+      flex-basis: 3115px;
   border: 7px solid darkgreen;
 }
 .wrappe .blo .blo_ro .foote {
