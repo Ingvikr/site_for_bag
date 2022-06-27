@@ -24,7 +24,8 @@
             border: 7px solid darkgreen;
             .foote_ro_blo2_ro {
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
+                justify-content: space-between;
                 border: 7px solid darkgreen;
                 .foote_ro_blo2_ro_blo1 {
                     border: 7px solid darkgreen;
