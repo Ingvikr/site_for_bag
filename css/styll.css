@@ -4881,6 +4881,20 @@
   }
 }
 
+body::-webkit-scrollbar {
+  background-color: transparent;
+  width: 13px;
+}
+body::-webkit-scrollbar-thumb {
+  width: 9px;
+  height: 5px;
+  border-radius: 75px;
+  background-color: black;
+}
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
 .wrappe {
   border: 7px solid darkblue;
 }
