@@ -4212,6 +4212,7 @@
   border: 7px solid darkgreen;
 }
 .foote .foote_ro .foote_ro_blo2 {
+  width: 1907px;
   border: 7px solid darkgreen;
 }
 .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro {
@@ -4222,7 +4223,65 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border: 7px solid darkgreen;
+}
+@media (max-width: 1024px) {
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border: 7px solid darkgreen;
+  }
+}
+@media (max-width: 768px) {
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 37px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 7px solid darkgreen;
+  }
+}
+@media (max-width: 425px) {
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 53px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    border: 7px solid darkgreen;
+  }
 }
 .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 {
   border: 7px solid darkgreen;
@@ -4272,6 +4331,117 @@
   left: 0px;
   bottom: -1px;
 }
+@media (max-width: 1024px) {
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx1 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+    font-family: "Source Serif Pro", sans-serif;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx1::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx1:hover::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 56px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+  }
+}
+@media (max-width: 768px) {
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx1 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+    font-family: "Source Serif Pro", sans-serif;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx1::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx1:hover::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 56px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+  }
+}
+@media (max-width: 425px) {
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx1 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+    font-family: "Source Serif Pro", sans-serif;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx1::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx1:hover::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 56px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+  }
+}
 .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx2 {
   position: relative;
   font-style: normal;
@@ -4306,6 +4476,117 @@
   background-color: black;
   left: 0px;
   bottom: -1px;
+}
+@media (max-width: 1024px) {
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx2 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+    font-family: "Source Serif Pro", sans-serif;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx2::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx2:hover::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 56px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+  }
+}
+@media (max-width: 768px) {
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx2 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+    font-family: "Source Serif Pro", sans-serif;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx2::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx2:hover::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 56px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+  }
+}
+@media (max-width: 425px) {
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx2 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+    font-family: "Source Serif Pro", sans-serif;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx2::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx2:hover::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 56px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+  }
 }
 .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx3 {
   position: relative;
@@ -4342,6 +4623,117 @@
   left: 0px;
   bottom: -1px;
 }
+@media (max-width: 1024px) {
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx3 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+    font-family: "Source Serif Pro", sans-serif;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx3::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx3:hover::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 39px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+  }
+}
+@media (max-width: 768px) {
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx3 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+    font-family: "Source Serif Pro", sans-serif;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx3::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx3:hover::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 39px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+  }
+}
+@media (max-width: 425px) {
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx3 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+    font-family: "Source Serif Pro", sans-serif;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx3::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx3:hover::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 39px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+  }
+}
 .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx4 {
   position: relative;
   font-style: normal;
@@ -4376,6 +4768,117 @@
   background-color: black;
   left: 0px;
   bottom: -1px;
+}
+@media (max-width: 1024px) {
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx4 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+    font-family: "Source Serif Pro", sans-serif;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx4::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx4:hover::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 39px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+  }
+}
+@media (max-width: 768px) {
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx4 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+    font-family: "Source Serif Pro", sans-serif;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx4::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx4:hover::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 39px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+  }
+}
+@media (max-width: 425px) {
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx4 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+    font-family: "Source Serif Pro", sans-serif;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx4::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo2 .foote_ro_blo2_ro .foote_ro_blo2_ro_blo1 .foote_ro_blo2_ro_blo1_ro .foote_ro_blo2_ro_blo1_ro_tx4:hover::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 39px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    left: 0px;
+    bottom: -1px;
+  }
 }
 
 .wrappe {
