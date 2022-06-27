@@ -8,6 +8,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Заказать
 Выбирите свой чемодан
 Lorem ipsum dolor sit
+Lorem ipsum dolor sit amet, consectetur adipiscing   sit amet, consectetur adipiscing  
 Lorem ipsum dolor sit
 Lorem ipsum dolor sit amet, consectetur adipiscing   sit amet, consectetur adipiscing   dolor sit amet, consectetur adipiscing   sit
 Lorem ipsum dolor sit amet, consectetur adipiscing   sit amet, consectetur adipiscing   dolor sit amet, consectetur adipiscing   sit
@@ -18,11 +19,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing   sit amet, consectetur adipi
 33
 57
 19
+71
 27
 33
 57
 Выбирите цвет
 Выбирите цвет
+1
+2
+3
+4
+5
 Lorem ipsum dolor sit
 Lorem ipsum dolor sit amet, consectetur adipiscing   sit amet, consectetur adipiscing  
 Цена
