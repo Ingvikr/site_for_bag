@@ -8,6 +8,7 @@
 @import "heade.scss";
 @import "mai.scss";
 @import "foote.scss";
+@import "scrol_scss/scrol.scss";
 .wrappe {
     border: 7px solid darkblue;
     .blo {
@@ -23,7 +24,7 @@
             .mai {
                 flex-shrink: 1;
                 flex-grow: 1;
-                flex-basis: 3117px;
+                flex-basis: 3115px;
                 border: 7px solid darkgreen;
             }
     
