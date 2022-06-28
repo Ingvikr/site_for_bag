@@ -2,37 +2,33 @@
     .blo {
         .blo_ro {
             .heade {
-                border: 7px solid darkgreen;
                 .heade_ro {
                     display: flex;
                     flex-direction: column;
                     flex-wrap: wrap;
-                    border: 7px solid darkgreen;
                     .heade_ro_na {
-                        border: 7px solid darkgreen;
                         .heade_ro_na_ro {
                             display: flex;
                             flex-direction: row;
                             justify-content: flex-end;
+                            background-color: #C65A5A;
+                            column-gap: 19px;
                             flex-wrap: wrap;
-                            border: 7px solid darkgreen;
                             .heade_ro_na_ro_tx1 {
                                 margin-right: auto;
                                 font-style: normal;
                                 font-size: 19px;
                                 opacity: 100%;
-                                color: black;
+                                color: white;
                                 font-family: "Pathway Gothic One", sans-serif;
-                                border: 7px solid darkgreen;
 
                                 @include doug_scre_2 {
                                     margin-right: auto;
                                     font-style: normal;
                                     opacity: 100%;
                                     font-size: 19px;
-                                    color: black;
+                                    color: white;
                                     font-family: "Pathway Gothic One", sans-serif;
-                                    border: 7px solid darkgreen;
                                 }
 
                                 @include doug_scre_3 {
@@ -40,31 +36,29 @@
                                     font-style: normal;
                                     opacity: 100%;
                                     font-size: 19px;
-                                    color: black;
+                                    color: white;
                                     font-family: "Pathway Gothic One", sans-serif;
-                                    border: 7px solid darkgreen;
                                 }
 
                                 @include doug_scre_4 {
                                     margin-right: auto;
                                     font-style: normal;
                                     font-size: 19px;
-                                    color: black;
+                                    color: white;
                                     opacity: 100%;
                                     font-family: "Pathway Gothic One", sans-serif;
-                                    border: 7px solid darkgreen;
                                 }
                             }
 
                             .heade_ro_na_ro_tx2 {
                                 position: relative;
                                 font-style: normal;
-                                color: black;
+                                color: white;
                                 opacity: 100%;
                                 font-family: "Source Serif Pro", sans-serif;
                                 cursor: pointer;
                                 font-size: 15px;
-                                border: 7px solid darkgreen;
+
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -76,7 +70,7 @@
                                     left: 0px;
                                     bottom: 1px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                                 }
 
@@ -90,18 +84,17 @@
                                     bottom: 1px;
                                     border-radius: 75px;
                                     cursor: pointer;
-                                    background-color: black;
-                                }
+                                    background-color: white;                      
+                            }
 
                                 @include doug_scre_2 {
                                     position: relative;
                                     font-style: normal;
-                                    color: black;
+                                    color: white;
                                     opacity: 100%;
                                     font-family: "Source Serif Pro", sans-serif;
                                     cursor: pointer;
                                     font-size: 15px;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -113,7 +106,7 @@
                                         left: 0px;
                                         bottom: 1px;
                                         border-radius: 75px;
-                                        background-color: black;
+                                        background-color: white;
                                         transition: 0.5s;
                                     }
 
@@ -127,19 +120,18 @@
                                         bottom: 1px;
                                         border-radius: 75px;
                                         cursor: pointer;
-                                        background-color: black;
+                                        background-color: white;
                                     }
                                 }
 
                                 @include doug_scre_3 {
                                     position: relative;
                                     font-style: normal;
-                                    color: black;
+                                    color: white;
                                     opacity: 0%;
                                     font-family: "Source Serif Pro", sans-serif;
                                     cursor: pointer;
                                     font-size: 15px;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -151,7 +143,7 @@
                                         left: 0px;
                                         bottom: 1px;
                                         border-radius: 75px;
-                                        background-color: black;
+                                        background-color: white;
                                         transition: 0.5s;
                                     }
 
@@ -165,19 +157,18 @@
                                         bottom: 1px;
                                         border-radius: 75px;
                                         cursor: pointer;
-                                        background-color: black;
+                                        background-color: white;
                                     }
                                 }
 
                                 @include doug_scre_4 {
                                     position: relative;
                                     font-style: normal;
-                                    color: black;
+                                    color: white;
                                     opacity: 0%;
                                     font-family: "Source Serif Pro", sans-serif;
                                     cursor: pointer;
                                     font-size: 15px;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -189,7 +180,7 @@
                                         left: 0px;
                                         bottom: 1px;
                                         border-radius: 75px;
-                                        background-color: black;
+                                        background-color: white;
                                         transition: 0.5s;
                                     }
 
@@ -203,7 +194,7 @@
                                         bottom: 1px;
                                         border-radius: 75px;
                                         cursor: pointer;
-                                        background-color: black;
+                                        background-color: white;
                                     }
                                 }
                             }
@@ -211,12 +202,11 @@
                             .heade_ro_na_ro_tx3 {
                                 position: relative;
                                 font-style: normal;
-                                color: black;
+                                color: white;
                                 font-family: "Source Serif Pro", sans-serif;
                                 opacity: 100%;
                                 cursor: pointer;
                                 font-size: 15px;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -228,7 +218,7 @@
                                     opacity: 100%;
                                     bottom: 1px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                                 }
 
@@ -242,18 +232,17 @@
                                     bottom: 1px;
                                     border-radius: 75px;
                                     cursor: pointer;
-                                    background-color: black;
+                                    background-color: white;
                                 }
 
                                 @include doug_scre_2 {
                                     position: relative;
                                     font-style: normal;
-                                    color: black;
+                                    color: white;
                                     opacity: 100%;
                                     font-family: "Source Serif Pro", sans-serif;
                                     cursor: pointer;
                                     font-size: 15px;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -265,7 +254,7 @@
                                         left: 0px;
                                         bottom: 1px;
                                         border-radius: 75px;
-                                        background-color: black;
+                                        background-color: white;
                                         transition: 0.5s;
                                     }
 
@@ -279,19 +268,18 @@
                                         bottom: 1px;
                                         border-radius: 75px;
                                         cursor: pointer;
-                                        background-color: black;
+                                        background-color: white;
                                     }
                                 }
 
                                 @include doug_scre_3 {
                                     position: relative;
                                     font-style: normal;
-                                    color: black;
+                                    color: white;
                                     opacity: 0%;
                                     font-family: "Source Serif Pro", sans-serif;
                                     cursor: pointer;
                                     font-size: 15px;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -303,7 +291,7 @@
                                         left: 0px;
                                         bottom: 1px;
                                         border-radius: 75px;
-                                        background-color: black;
+                                        background-color: white;
                                         transition: 0.5s;
                                     }
 
@@ -317,19 +305,18 @@
                                         bottom: 1px;
                                         border-radius: 75px;
                                         cursor: pointer;
-                                        background-color: black;
+                                        background-color: white;
                                     }
                                 }
 
                                 @include doug_scre_4 {
                                     position: relative;
                                     font-style: normal;
-                                    color: black;
+                                    color: white;
                                     opacity: 0%;
                                     font-family: "Source Serif Pro", sans-serif;
                                     cursor: pointer;
                                     font-size: 15px;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -341,7 +328,7 @@
                                         left: 0px;
                                         bottom: 1px;
                                         border-radius: 75px;
-                                        background-color: black;
+                                        background-color: white;
                                         transition: 0.5s;
                                     }
 
@@ -355,7 +342,7 @@
                                         bottom: 1px;
                                         border-radius: 75px;
                                         cursor: pointer;
-                                        background-color: black;
+                                        background-color: white;
                                     }
                                 }
                             }
@@ -363,12 +350,11 @@
                             .heade_ro_na_ro_tx4 {
                                 position: relative;
                                 font-style: normal;
-                                color: black;
+                                color: white;
                                 opacity: 100%;
                                 font-family: "Source Serif Pro", sans-serif;
                                 cursor: pointer;
                                 font-size: 15px;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -380,7 +366,7 @@
                                     left: 0px;
                                     bottom: 1px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                                 }
 
@@ -394,18 +380,17 @@
                                     bottom: 1px;
                                     border-radius: 75px;
                                     cursor: pointer;
-                                    background-color: black;
+                                    background-color: white;
                                 }
 
                                 @include doug_scre_2 {
                                     position: relative;
                                     font-style: normal;
-                                    color: black;
+                                    color: white;
                                     opacity: 100%;
                                     font-family: "Source Serif Pro", sans-serif;
                                     cursor: pointer;
                                     font-size: 15px;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -417,7 +402,7 @@
                                         left: 0px;
                                         bottom: 1px;
                                         border-radius: 75px;
-                                        background-color: black;
+                                        background-color: white;
                                         transition: 0.5s;
                                     }
 
@@ -431,19 +416,18 @@
                                         bottom: 1px;
                                         border-radius: 75px;
                                         cursor: pointer;
-                                        background-color: black;
+                                        background-color: white;
                                     }
                                 }
 
                                 @include doug_scre_3 {
                                     position: relative;
                                     font-style: normal;
-                                    color: black;
+                                    color: white;
                                     opacity: 0%;
                                     font-family: "Source Serif Pro", sans-serif;
                                     cursor: pointer;
                                     font-size: 15px;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -455,7 +439,7 @@
                                         left: 0px;
                                         bottom: 1px;
                                         border-radius: 75px;
-                                        background-color: black;
+                                        background-color: white;
                                         transition: 0.5s;
                                     }
 
@@ -469,19 +453,18 @@
                                         bottom: 1px;
                                         border-radius: 75px;
                                         cursor: pointer;
-                                        background-color: black;
+                                        background-color: white;
                                     }
                                 }
 
                                 @include doug_scre_4 {
                                     position: relative;
                                     font-style: normal;
-                                    color: black;
+                                    color: white;
                                     opacity: 0%;
                                     font-family: "Source Serif Pro", sans-serif;
                                     cursor: pointer;
                                     font-size: 15px;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -493,7 +476,7 @@
                                         left: 0px;
                                         bottom: 1px;
                                         border-radius: 75px;
-                                        background-color: black;
+                                        background-color: white;
                                         transition: 0.5s;
                                     }
 
@@ -507,7 +490,7 @@
                                         bottom: 1px;
                                         border-radius: 75px;
                                         cursor: pointer;
-                                        background-color: black;
+                                        background-color: white;
                                     }
                                 }
                             }
@@ -515,12 +498,11 @@
                             .heade_ro_na_ro_tx5 {
                                 position: relative;
                                 font-style: normal;
-                                color: black;
+                                color: white;
                                 font-family: "Source Serif Pro", sans-serif;
                                 cursor: pointer;
                                 font-size: 15px;
                                 opacity: 100%;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -532,7 +514,7 @@
                                     left: 0px;
                                     bottom: 1px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                                 }
 
@@ -546,18 +528,17 @@
                                     bottom: 1px;
                                     border-radius: 75px;
                                     cursor: pointer;
-                                    background-color: black;
+                                    background-color: white;
                                 }
 
                                 @include doug_scre_2 {
                                     position: relative;
                                     font-style: normal;
-                                    color: black;
+                                    color: white;
                                     opacity: 100%;
                                     font-family: "Source Serif Pro", sans-serif;
                                     cursor: pointer;
                                     font-size: 15px;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -569,7 +550,7 @@
                                         left: 0px;
                                         bottom: 1px;
                                         border-radius: 75px;
-                                        background-color: black;
+                                        background-color: white;
                                         transition: 0.5s;
                                     }
 
@@ -583,19 +564,18 @@
                                         bottom: 1px;
                                         border-radius: 75px;
                                         cursor: pointer;
-                                        background-color: black;
+                                        background-color: white;
                                     }
                                 }
 
                                 @include doug_scre_3 {
                                     position: relative;
                                     font-style: normal;
-                                    color: black;
+                                    color: white;
                                     opacity: 0%;
                                     font-family: "Source Serif Pro", sans-serif;
                                     cursor: pointer;
                                     font-size: 15px;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -607,7 +587,7 @@
                                         left: 0px;
                                         bottom: 1px;
                                         border-radius: 75px;
-                                        background-color: black;
+                                        background-color: white;
                                         transition: 0.5s;
                                     }
 
@@ -621,19 +601,18 @@
                                         bottom: 1px;
                                         border-radius: 75px;
                                         cursor: pointer;
-                                        background-color: black;
+                                        background-color: white;
                                     }
                                 }
 
                                 @include doug_scre_4 {
                                     position: relative;
                                     font-style: normal;
-                                    color: black;
+                                    color: white;
                                     opacity: 0%;
                                     font-family: "Source Serif Pro", sans-serif;
                                     cursor: pointer;
                                     font-size: 15px;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -645,7 +624,7 @@
                                         left: 0px;
                                         bottom: 1px;
                                         border-radius: 75px;
-                                        background-color: black;
+                                        background-color: white;
                                         transition: 0.5s;
                                     }
 
@@ -659,7 +638,7 @@
                                         bottom: 1px;
                                         border-radius: 75px;
                                         cursor: pointer;
-                                        background-color: black;
+                                        background-color: white;
                                     }
                                 }
                             }
