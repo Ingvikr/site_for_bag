@@ -4,9 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-.wrappe .blo .blo_ro .heade {
-  border: 7px solid darkgreen;
-}
 .wrappe .blo .blo_ro .heade .heade_ro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,10 +14,6 @@
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border: 7px solid darkgreen;
-}
-.wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na {
-  border: 7px solid darkgreen;
 }
 .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro {
   display: -webkit-box;
@@ -33,18 +26,20 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  background-color: #C65A5A;
+  -webkit-column-gap: 19px;
+     -moz-column-gap: 19px;
+          column-gap: 19px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border: 7px solid darkgreen;
 }
 .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx1 {
   margin-right: auto;
   font-style: normal;
   font-size: 19px;
   opacity: 100%;
-  color: black;
+  color: white;
   font-family: "Pathway Gothic One", sans-serif;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx1 {
@@ -52,9 +47,8 @@
     font-style: normal;
     opacity: 100%;
     font-size: 19px;
-    color: black;
+    color: white;
     font-family: "Pathway Gothic One", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -63,9 +57,8 @@
     font-style: normal;
     opacity: 100%;
     font-size: 19px;
-    color: black;
+    color: white;
     font-family: "Pathway Gothic One", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -73,21 +66,19 @@
     margin-right: auto;
     font-style: normal;
     font-size: 19px;
-    color: black;
+    color: white;
     opacity: 100%;
     font-family: "Pathway Gothic One", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx2 {
   position: relative;
   font-style: normal;
-  color: black;
+  color: white;
   opacity: 100%;
   font-family: "Source Serif Pro", sans-serif;
   cursor: pointer;
   font-size: 15px;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -101,7 +92,7 @@
   left: 0px;
   bottom: 1px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -115,18 +106,17 @@
   bottom: 1px;
   border-radius: 75px;
   cursor: pointer;
-  background-color: black;
+  background-color: white;
 }
 @media (max-width: 1024px) {
   .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx2 {
     position: relative;
     font-style: normal;
-    color: black;
+    color: white;
     opacity: 100%;
     font-family: "Source Serif Pro", sans-serif;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -140,7 +130,7 @@
     left: 0px;
     bottom: 1px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -154,19 +144,18 @@
     bottom: 1px;
     border-radius: 75px;
     cursor: pointer;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 768px) {
   .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx2 {
     position: relative;
     font-style: normal;
-    color: black;
+    color: white;
     opacity: 0%;
     font-family: "Source Serif Pro", sans-serif;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -180,7 +169,7 @@
     left: 0px;
     bottom: 1px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -194,19 +183,18 @@
     bottom: 1px;
     border-radius: 75px;
     cursor: pointer;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 425px) {
   .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx2 {
     position: relative;
     font-style: normal;
-    color: black;
+    color: white;
     opacity: 0%;
     font-family: "Source Serif Pro", sans-serif;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -220,7 +208,7 @@
     left: 0px;
     bottom: 1px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -234,18 +222,17 @@
     bottom: 1px;
     border-radius: 75px;
     cursor: pointer;
-    background-color: black;
+    background-color: white;
   }
 }
 .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx3 {
   position: relative;
   font-style: normal;
-  color: black;
+  color: white;
   font-family: "Source Serif Pro", sans-serif;
   opacity: 100%;
   cursor: pointer;
   font-size: 15px;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -259,7 +246,7 @@
   opacity: 100%;
   bottom: 1px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -273,18 +260,17 @@
   bottom: 1px;
   border-radius: 75px;
   cursor: pointer;
-  background-color: black;
+  background-color: white;
 }
 @media (max-width: 1024px) {
   .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx3 {
     position: relative;
     font-style: normal;
-    color: black;
+    color: white;
     opacity: 100%;
     font-family: "Source Serif Pro", sans-serif;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -298,7 +284,7 @@
     left: 0px;
     bottom: 1px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -312,19 +298,18 @@
     bottom: 1px;
     border-radius: 75px;
     cursor: pointer;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 768px) {
   .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx3 {
     position: relative;
     font-style: normal;
-    color: black;
+    color: white;
     opacity: 0%;
     font-family: "Source Serif Pro", sans-serif;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -338,7 +323,7 @@
     left: 0px;
     bottom: 1px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -352,19 +337,18 @@
     bottom: 1px;
     border-radius: 75px;
     cursor: pointer;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 425px) {
   .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx3 {
     position: relative;
     font-style: normal;
-    color: black;
+    color: white;
     opacity: 0%;
     font-family: "Source Serif Pro", sans-serif;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -378,7 +362,7 @@
     left: 0px;
     bottom: 1px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -392,18 +376,17 @@
     bottom: 1px;
     border-radius: 75px;
     cursor: pointer;
-    background-color: black;
+    background-color: white;
   }
 }
 .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx4 {
   position: relative;
   font-style: normal;
-  color: black;
+  color: white;
   opacity: 100%;
   font-family: "Source Serif Pro", sans-serif;
   cursor: pointer;
   font-size: 15px;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -417,7 +400,7 @@
   left: 0px;
   bottom: 1px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -431,18 +414,17 @@
   bottom: 1px;
   border-radius: 75px;
   cursor: pointer;
-  background-color: black;
+  background-color: white;
 }
 @media (max-width: 1024px) {
   .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx4 {
     position: relative;
     font-style: normal;
-    color: black;
+    color: white;
     opacity: 100%;
     font-family: "Source Serif Pro", sans-serif;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -456,7 +438,7 @@
     left: 0px;
     bottom: 1px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -470,19 +452,18 @@
     bottom: 1px;
     border-radius: 75px;
     cursor: pointer;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 768px) {
   .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx4 {
     position: relative;
     font-style: normal;
-    color: black;
+    color: white;
     opacity: 0%;
     font-family: "Source Serif Pro", sans-serif;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -496,7 +477,7 @@
     left: 0px;
     bottom: 1px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -510,19 +491,18 @@
     bottom: 1px;
     border-radius: 75px;
     cursor: pointer;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 425px) {
   .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx4 {
     position: relative;
     font-style: normal;
-    color: black;
+    color: white;
     opacity: 0%;
     font-family: "Source Serif Pro", sans-serif;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -536,7 +516,7 @@
     left: 0px;
     bottom: 1px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -550,18 +530,17 @@
     bottom: 1px;
     border-radius: 75px;
     cursor: pointer;
-    background-color: black;
+    background-color: white;
   }
 }
 .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx5 {
   position: relative;
   font-style: normal;
-  color: black;
+  color: white;
   font-family: "Source Serif Pro", sans-serif;
   cursor: pointer;
   font-size: 15px;
   opacity: 100%;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -575,7 +554,7 @@
   left: 0px;
   bottom: 1px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -589,18 +568,17 @@
   bottom: 1px;
   border-radius: 75px;
   cursor: pointer;
-  background-color: black;
+  background-color: white;
 }
 @media (max-width: 1024px) {
   .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx5 {
     position: relative;
     font-style: normal;
-    color: black;
+    color: white;
     opacity: 100%;
     font-family: "Source Serif Pro", sans-serif;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -614,7 +592,7 @@
     left: 0px;
     bottom: 1px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -628,19 +606,18 @@
     bottom: 1px;
     border-radius: 75px;
     cursor: pointer;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 768px) {
   .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx5 {
     position: relative;
     font-style: normal;
-    color: black;
+    color: white;
     opacity: 0%;
     font-family: "Source Serif Pro", sans-serif;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -654,7 +631,7 @@
     left: 0px;
     bottom: 1px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -668,19 +645,18 @@
     bottom: 1px;
     border-radius: 75px;
     cursor: pointer;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 425px) {
   .wrappe .blo .blo_ro .heade .heade_ro .heade_ro_na .heade_ro_na_ro .heade_ro_na_ro_tx5 {
     position: relative;
     font-style: normal;
-    color: black;
+    color: white;
     opacity: 0%;
     font-family: "Source Serif Pro", sans-serif;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -694,7 +670,7 @@
     left: 0px;
     bottom: 1px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -708,7 +684,7 @@
     bottom: 1px;
     border-radius: 75px;
     cursor: pointer;
-    background-color: black;
+    background-color: white;
   }
 }
 
@@ -4895,12 +4871,6 @@ body::-webkit-scrollbar-track {
   background-color: transparent;
 }
 
-.wrappe {
-  border: 7px solid darkblue;
-}
-.wrappe .blo {
-  border: 7px solid darkgreen;
-}
 .wrappe .blo .blo_ro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4909,10 +4879,6 @@ body::-webkit-scrollbar-track {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 7px solid darkgreen;
-}
-.wrappe .blo .blo_ro .heade {
-  border: 7px solid darkgreen;
 }
 .wrappe .blo .blo_ro .mai {
   -ms-flex-negative: 1;
@@ -4922,8 +4888,4 @@ body::-webkit-scrollbar-track {
           flex-grow: 1;
   -ms-flex-preferred-size: 3115px;
       flex-basis: 3115px;
-  border: 7px solid darkgreen;
-}
-.wrappe .blo .blo_ro .foote {
-  border: 7px solid darkgreen;
 }
